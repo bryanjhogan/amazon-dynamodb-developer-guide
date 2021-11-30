@@ -77,7 +77,7 @@ After you do this, you should be able to run the `dotnet --version` command with
    unzip TryDax.zip
    ```
 
-4. Now run the sample programs, one at a time\. For each program, copy its contents into the `myApp/Program.cs`, and then run the `MyApp` project\.
+4. Now run the sample programs, one at a time\. For each program, copy its contents into the `myApp/Program.cs`, and then run the `myApp` project\.
 
    Run the following \.NET programs\. The first program creates a DynamoDB table named `TryDaxTable`\. The second program writes data to the table\.
 
