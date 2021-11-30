@@ -8,7 +8,7 @@ For more information, see [Creating and Deploying Elastic Beanstalk Applications
 
 **To run the \.NET sample for DAX**
 
-1. Go to the [Microsoft Downloads page](hhttps://dotnet.microsoft.com/download?initial-os=linux) and download the latest \.NET 6 SDK (or .NET Core) for Linux\. The downloaded file is `dotnet-sdk-N.N.N-linux-x64.tar.gz`\.
+1. Go to the [Microsoft Downloads page](hhttps://dotnet.microsoft.com/download?initial-os=linux) and download the latest \.NET 6 (or .NET Core) SDK for Linux\. The downloaded file is `dotnet-sdk-N.N.N-linux-x64.tar.gz`\.
 
 2. Extract the SDK files.
 
