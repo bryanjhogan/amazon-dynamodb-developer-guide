@@ -82,10 +82,10 @@ After you do this, you should be able to run the `dotnet --version` command with
    Run the following \.NET programs\. The first program creates a DynamoDB table named `TryDaxTable`\. The second program writes data to the table\.
 
    ```
-   cp TryDax/dotNetTryDax/dotNet01-CreateTable.cs myApp/Program.cs
+   cp TryDax/dotNetTryDax/dotNet/01-CreateTable.cs myApp/Program.cs
    dotnet run --project myApp
    
-   cp TryDax/dotNetTryDax/dotNet02-Write-Data.cs myApp/Program.cs
+   cp TryDax/dotNetTryDax/dotNet/02-Write-Data.cs myApp/Program.cs
    dotnet run --project myApp
    ```
 
@@ -114,13 +114,13 @@ After you do this, you should be able to run the `dotnet --version` command with
    Now run the following programs, specifying your cluster endpoint as a command line parameter\. \(Replace the sample endpoint with your actual DAX cluster endpoint\.\)
 
    ```
-   cp TryDax/dotNet03-GetItem-Test.cs myApp/Program.cs
+   cp TryDax/dotNet/03-GetItem-Test.cs myApp/Program.cs
    dotnet run --project myApp dax://my-cluster.l6fzcv.dax-clusters.us-east-1.amazonaws.com
    
-   cp TryDax/dotNet04-Query-Test.cs myApp/Program.cs
+   cp TryDax/dotNet/04-Query-Test.cs myApp/Program.cs
    dotnet run --project myApp dax://my-cluster.l6fzcv.dax-clusters.us-east-1.amazonaws.com
    
-   cp TryDax/dotNet05-Scan-Test.cs myApp/Program.cs
+   cp TryDax/dotNet/05-Scan-Test.cs myApp/Program.cs
    dotnet run --project myApp dax://my-cluster.l6fzcv.dax-clusters.us-east-1.amazonaws.com
    ```
 
@@ -129,7 +129,7 @@ After you do this, you should be able to run the `dotnet --version` command with
 6. Run the following \.NET program to delete `TryDaxTable`\.
 
    ```
-   cp TryDax/dotNet06-DeleteTable.cs myApp/Program.cs
+   cp TryDax/dotNet/06-DeleteTable.cs myApp/Program.cs
    dotnet run --project myApp
    ```
 
